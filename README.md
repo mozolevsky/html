@@ -1,3 +1,1 @@
-# scripts
-
-#test scripts
+# this folder contains some learning programming tasks
