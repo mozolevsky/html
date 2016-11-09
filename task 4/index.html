@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        body {
+            height: 2000px;
+            /* подсказка должна работать независимо от прокрутки */
+        }
+        /* ваши стили */
+        .tip {
+            border: 1px solid dodgerblue;
+            padding: 10px;
+            background-color: azure;
+            color: black;
+            border-radius: 10px;
+            position: fixed;
+
+        }
+
+        #target-area {
+            height: 20px;
+            width: 208px;
+        }
+
+        #target-area > div { display: inline-block;}
+
+
+
+
+
+    </style>
+</head>
+
+<p>ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя</p>
+<p>ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя ЛяЛяЛя</p>
+
+<div id = "target-area">
+<div><button data-tooltip="подсказка длиннее, чем элемент">Короткая кнопка</button></div>
+    <div><button data-tooltip="HTML<br>подсказка">Ещё кнопка</button></div>
+
+<p>Прокрутите страницу, чтобы ссылки были вверху и проверьте, правильно ли показываются подсказки.</p>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
