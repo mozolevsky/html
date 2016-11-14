@@ -1,0 +1,1 @@
+https://learn.javascript.ru/task/output-single-linked-list
