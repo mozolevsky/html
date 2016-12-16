@@ -1,0 +1,1 @@
+https://learn.javascript.ru/task/add-method-property-coffeemachine
