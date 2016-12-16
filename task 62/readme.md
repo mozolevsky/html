@@ -1,0 +1,1 @@
+https://learn.javascript.ru/task/object-with-getters-setters
